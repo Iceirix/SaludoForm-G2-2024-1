@@ -37,6 +37,7 @@ namespace SaludoForm_G2_2024_1
             btnLimpiar = new Button();
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.Location = new Point(300, 200);
+            btnLimpiar.Click += new EventHandler(btnLimpiar_Click);
 
             this.Controls.Add(lbNombre);
             this.Controls.Add(txtbNombre);
